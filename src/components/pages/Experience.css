@@ -1,0 +1,38 @@
+.experience {
+  z-index: 4;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience__container {
+  transition: 0.3s ease;
+  max-width: 1100px;
+  max-height: 1050px;
+  margin: 0 auto;
+  margin-left: 10rm;
+  padding: 90px;
+  padding-left: 20px;
+}
+.heading__experience {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  line-height: 1;
+  margin-bottom: 10px;
+  text-transform: none;
+  margin-top: -50px;
+}
+
+button {
+  background-color: black;
+  color: white;
+}
+
+.small {
+  color: rgb(108, 106, 106);
+}
